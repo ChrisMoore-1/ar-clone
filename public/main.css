@@ -419,7 +419,7 @@ input, textarea {
 }
 
 #wrapper #header>div>div>.menu-container>.menu>.bottom>div .navigation>.active a span, #wrapper #header>div>div>.menu-container>.menu>.bottom>div .navigation a:hover span {
-    color: #818b96
+    color: #fff
 }
 
 #wrapper #header>div>div>.menu-container>.menu>.bottom>div .hours {
@@ -1543,7 +1543,7 @@ input, textarea {
     overflow: hidden;
     position: absolute;
     left: 0;
-    top: -100px;
+    top: -50px;
     width: 100%;
     height: 100%
 }
@@ -1551,10 +1551,10 @@ input, textarea {
 #wrapper #contact #block1 #map_container #map {
     display: block;
     position: relative;
-    align-items: center;
     width: 100%;
     height: 100%;
     background: url("./img/151106_AdvanceFamilyDental_S_001.jpg");
+    background-position: center;
 }
 
 #wrapper #contact #block1 #map_container #map .gmnoprint, #wrapper #contact #block1 #map_container #map a {
@@ -1800,6 +1800,282 @@ input, textarea {
     color: #4d5256;
     background: #fff
 }
+
+#wrapper #clinic {
+    position: relative
+}
+
+#wrapper #clinic #block1 {
+    overflow: hidden;
+    position: relative;
+    margin-right: 50%;
+    padding-top: 100px
+}
+
+#wrapper #clinic #block1>div {
+    background: #CCB8D1;
+    min-height: 372px
+}
+
+#wrapper #clinic #block1>div>img {
+    position: relative;
+    width: 100%
+}
+
+#wrapper #clinic #block1>div>div {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    bottom: 120px;
+    color: #fff;
+    width: 100%
+}
+
+#wrapper #clinic #block1>div>div h2 {
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: .15em;
+    font-size: 32px;
+    text-transform: uppercase;
+    line-height: 50px;
+    padding: 0 75px;
+    white-space: nowrap
+}
+
+#wrapper #clinic #block2 {
+    overflow: hidden;
+    position: relative;
+    margin-right: 50%
+}
+
+#wrapper #clinic #block2 #slider-container-slide {
+    position: relative;
+    padding-bottom: 80px
+}
+
+#wrapper #clinic #block2 #slider-container-slide .slider-controls, #wrapper #clinic #block2 #slider-container-slide .slider-arrows .count {
+    display: none
+}
+
+#wrapper #clinic #block2 #slider-container-slide .slider {
+    position: relative
+}
+
+#wrapper #clinic #block2 #slider-container-slide .slider>img {
+    position: relative;
+    width: 100%
+}
+
+#wrapper #clinic #block2 #slider-container-slide .slider>ul {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%
+}
+
+#wrapper #clinic #block2 #slider-container-slide .slider>ul>li {
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1
+}
+
+#wrapper #clinic #block2 #slider-container-slide .slider>ul>li img {
+    width: 101%
+}
+
+#wrapper #clinic #block2 #slider-container-slide .slider>ul>li:first-child {
+    display: flex
+}
+
+#wrapper #clinic #block2 #slider-container-slide .slider>ul>li.active {
+    z-index: 2
+}
+
+#wrapper #clinic #block2 #slider-container-slide .slider-arrows {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 101%
+}
+
+#wrapper #clinic #block2 #slider-container-slide .slider-arrows>li {
+    float: left;
+    overflow: hidden;
+    position: relative;
+    width: 50%
+}
+
+#wrapper #clinic #block2 #slider-container-slide .slider-arrows>li>a {
+    display: block;
+    background: #B58BAB
+}
+
+#wrapper #clinic #block2 #slider-container-slide .slider-arrows>li>a>span {
+    display: block;
+    text-indent: -5000px;
+    background: url(./img/home_block2-arrow.png) no-repeat center center;
+    height: 80px
+}
+
+#wrapper #clinic #block2 #slider-container-slide .slider-arrows>li>a:hover>span {
+    opacity: .3;
+    filter: alpha(opacity=30)
+}
+
+#wrapper #clinic #block2 #slider-container-slide .slider-arrows>li.next {
+    margin-left: -.5%
+}
+
+#wrapper #clinic #block2 #slider-container-slide .slider-arrows>li.next>a {
+    background: #B58BAB
+}
+
+#wrapper #clinic #block2 #slider-container-slide .slider-arrows>li.next>a>span {
+    background-image: url(./img/home_block2-arrow-next.png)
+}
+
+#wrapper #clinic #block3 {
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #E6E2DF;
+    width: 50%
+}
+
+#wrapper #clinic #block3>div>div {
+    padding: 210px 75px 130px
+}
+
+#wrapper #clinic #block3>div>div h2 {
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: .15em;
+    font-size: 32px;
+    text-transform: uppercase;
+    line-height: 50px;
+    padding-bottom: 30px
+}
+
+#wrapper #clinic #block3>div>div p {
+    font-size: 14px;
+    line-height: 30px
+}
+
+#wrapper #clinic #block3>div>div p+p {
+    padding-top: 20px
+}
+
+#wrapper #clinic #block4 {
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    margin-top: 600px
+}
+
+#wrapper #clinic #block4>div {
+    overflow: hidden;
+    padding: 135px 0 160px;
+    background: #fff;
+    width: auto
+}
+
+#wrapper #clinic #block4>div>div {
+    transform: translatex(-50%);
+    -webkit-transform: translatex(-50%)
+}
+
+#wrapper #clinic #block4 h2 {
+    color: #8a65c5;
+    font-size: 26px;
+    line-height: 42px;
+    padding-bottom: 70px
+}
+
+#wrapper #clinic #block4 ul {
+    overflow: hidden
+}
+
+#wrapper #clinic #block4 ul>li {
+    float: left;
+    margin-left: 5%;
+    width: 18.5%
+}
+
+#wrapper #clinic #block4 ul>li .animation {
+    margin: 0 auto;
+    width: 175px;
+    height: 175px
+}
+
+#wrapper #clinic #block4 ul>li h3 {
+    color: #8a65c5;
+    font-size: 24px
+}
+
+#wrapper #clinic #block4 ul>li p {
+    font-size: 14px;
+    line-height: 24px;
+    padding: 25px 0 55px
+}
+
+#wrapper #clinic #block4 ul>li a {
+    display: inline-block;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 40px;
+    padding: 0 20px;
+    background: #8F8172
+}
+
+#wrapper #clinic #block4 ul>li a:hover {
+    color: #8F8172;
+    background: #fff
+}
+
+#wrapper #clinic #block5 {
+    overflow: hidden;
+    position: relative
+}
+
+#wrapper #clinic #block5>div {
+    overflow: hidden;
+    padding: 160px 0 180px;
+    background: #B2E3E8;
+    width: auto
+}
+
+#wrapper #clinic #block5>div>div {
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 910px
+}
+
+#wrapper #clinic #block5>div>div h2 {
+    text-transform: uppercase;
+    padding-bottom: 45px
+}
+
+#wrapper #clinic #block5>div>div p {
+    font-size: 24px;
+    line-height: 40px
+}
+
+#wrapper #clinic #block5>div>div p.note {
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 70px
+}
+
 
 #wrapper #footer {
     position: relative
