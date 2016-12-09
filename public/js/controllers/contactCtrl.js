@@ -6,7 +6,11 @@ angular.module("ard").controller("contactCtrl", function($scope, contactService)
         alert('There was an error');
       }
       else {
-        alert('Thank you for messaging Autumn Ridge Dental!');
+		swal({
+   		title: 'Thank You!',
+   		text: 'For Contacting Autumn Ridge Dental',
+   		type: 'success'
+});
       }
 
     })

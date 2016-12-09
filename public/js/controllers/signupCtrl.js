@@ -4,7 +4,21 @@ $scope.sendForm = function (user) {
   signupService.sendForm(user).then(function(response){
     console.log(response.data);
     $scope.user = {}
-  })
+		swal({
+   		title: 'Thank You!',
+   		text: 'For Signing Up With Autumn Ridge Dental',
+   		type: 'success'
+	});
+  }).catch(err =>{
+	  if (err) {
+		  console.log(err)
+		  swal({
+			title: 'Error',
+			text: "Sorry! We're experiencing network problems right now. Please try again.",
+			type: 'error'
+		  })
+	  }
+  	});
 }
 
 
