@@ -73,7 +73,7 @@ app.post('/contactus', function(req, res, next) {
       return res.send('err');
     }
     else {
-      sweetAlert('Congratulations!', 'Your message has been successfully sent', 'success');
+      return res.send('success');
     }
   });
 })
