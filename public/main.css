@@ -1734,8 +1734,8 @@ input, textarea {
 #wrapper #contact #block3>div>div>.right .line .textarea>div textarea {
     font-family: 'Quicksand', sans-serif;
     display: block;
-    color: #fff
-    font-size: 14px;
+    color: #fff;
+    font-size: 16px;
     line-height: 30px;
     background: 0;
     border: 0;
