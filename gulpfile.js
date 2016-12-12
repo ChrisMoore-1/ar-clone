@@ -1,4 +1,4 @@
-/ Include gulp
+// Include gulp
 var gulp = require('gulp');
 
 // Include Our Plugins
@@ -17,11 +17,11 @@ gulp.task('lint', function() {
 });
 
 // Compile Our Sass
-gulp.task('sass', function() {
-    return gulp.src('scss/*.scss')
-        .pipe(sass())
-        .pipe(gulp.dest('dist/css'));
-});
+// gulp.task('sass', function() {
+//     return gulp.src('scss/*.scss')
+//         .pipe(sass())
+//         .pipe(gulp.dest('dist/css'));
+// });
 
 //Compile css
 
